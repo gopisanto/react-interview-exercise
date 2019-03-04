@@ -1,0 +1,52 @@
+exports[`<Pagination /> using snapshot renders nothing when no of pages is 1 1`] = `<div />`;
+
+exports[`<Pagination /> using snapshot renders with page links when more than one page 1`] = `
+<div>
+  <div
+    className={undefined}>
+    <span
+      className="undefined"
+      disabled={true}
+      onClick={[Function]}>
+      <<
+    </span>
+    <span
+      className="undefined"
+      disabled={true}
+      onClick={[Function]}>
+      <
+    </span>
+    <span
+      className="undefined"
+      onClick={[Function]}>
+      1
+    </span>
+    <span
+      className=""
+      onClick={[Function]}>
+      2
+    </span>
+    <span
+      className=""
+      onClick={[Function]}>
+      3
+    </span>
+    <span
+      className=""
+      disabled={false}
+      onClick={[Function]}>
+      >
+    </span>
+    <span
+      className=""
+      disabled={false}
+      onClick={[Function]}>
+      >>
+    </span>
+    <span
+      className={undefined}>
+      1 of 3
+    </span>
+  </div>
+</div>
+`;

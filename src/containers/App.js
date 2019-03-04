@@ -6,7 +6,7 @@ import FriendListApp from './FriendListApp';
 import * as reducers from '../reducers';
 
 const reducer = combineReducers(reducers);
-const store = createStore(reducer);
+export const store = createStore(reducer);
 
 export default class App extends Component {
   render() {

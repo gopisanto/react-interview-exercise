@@ -1,0 +1,24 @@
+:local(.pagination) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+:local(.pagination span) {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+:local(span.disabled) {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+}
+:local(span.paginationStatus) {
+    margin-left: 5px;
+    border: none;
+    text-decoration: none;
+}

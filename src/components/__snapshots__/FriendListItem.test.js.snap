@@ -1,0 +1,39 @@
+exports[`<FriendListItem /> should render 1`] = `
+<li
+  className={undefined}>
+  <div
+    className={undefined}>
+    <i
+      aria-hidden="true"
+      className="fa fa-2x fa-male" />
+    <div
+      className={undefined}>
+      <div>
+        <span>
+          Santosh
+        </span>
+      </div>
+      <div>
+        <small>
+          xx friends in common
+        </small>
+      </div>
+    </div>
+  </div>
+  <div
+    className={undefined}>
+    <button
+      className="btn btn-default undefined"
+      onClick={[Function]}>
+      <i
+        className="fa fa-star" />
+    </button>
+    <button
+      className="btn btn-default undefined"
+      onClick={[Function]}>
+      <i
+        className="fa fa-trash" />
+    </button>
+  </div>
+</li>
+`;

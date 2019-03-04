@@ -1,6 +1,6 @@
 :local(.friendListItem) {
   list-style: none;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 10px 20px 10px;
   background-color: white;
   border-bottom: 1px solid #E3E3E3;
   display: flex;
@@ -8,6 +8,8 @@
 
 :local(.friendInfos) {
   flex: 1 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 :local(.friendInfos span) {
@@ -21,6 +23,11 @@
 :local(.btnAction), :local(.btnAction):active, :local(.btnAction):focus, :local(.btnAction):hover {
   margin-right: 5px;
   color: #5C75B0;
+}
+
+:local(.details) {
+  display: inline-block;
+  margin-left: 5px;
 }
 
 button:focus {

@@ -1,0 +1,39 @@
+exports[`<AddFriendInput /> should render 1`] = `
+<div
+  onKeyDown={[Function]}>
+  <input
+    autoFocus="true"
+    className="form-control"
+    onChange={[Function]}
+    placeholder="Type the name of a friend"
+    type="text"
+    value="" />
+  <div
+    className={undefined}>
+    <label
+      className={undefined}>
+      Gender:
+    </label>
+    <label
+      className="radio-inline">
+      <input
+        checked={false}
+        name="gender"
+        onClick={[Function]}
+        type="radio"
+        value="male" />
+      Male
+    </label>
+    <label
+      className="radio-inline">
+      <input
+        checked={false}
+        name="gender"
+        onClick={[Function]}
+        type="radio"
+        value="female" />
+      Female
+    </label>
+  </div>
+</div>
+`;

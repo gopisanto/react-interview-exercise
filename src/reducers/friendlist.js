@@ -1,18 +1,21 @@
 import * as types from '../constants/ActionTypes';
 
-const initialState = {
+export const initialState = {
   friendsById: [
     {
       name: 'Theodore Roosevelt',
-      starred: true
+      starred: true,
+      gender: 'female'
     },
     {
       name: 'Abraham Lincoln',
-      starred: false
+      starred: false,
+      gender: 'male'
     },
     {
       name: 'George Washington',
-      starred: false
+      starred: false,
+      gender: 'male'
     }
   ]
 };
@@ -20,12 +23,15 @@ const initialState = {
 export default function friends(state = initialState, action) {
   switch (action.type) {
     case types.ADD_FRIEND:
+      const { name, gender } = action.payload;
       return {
         ...state,
         friendsById: [
           ...state.friendsById,
           {
-            name: action.name
+            name,
+            gender,
+            starred: false
           }
         ],
       };

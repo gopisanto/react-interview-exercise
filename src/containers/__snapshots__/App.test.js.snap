@@ -1,0 +1,169 @@
+exports[`test <App /> should render 1`] = `
+<div>
+  <div
+    className={undefined}>
+    <h1>
+      The FriendList
+    </h1>
+    <div
+      onKeyDown={[Function]}>
+      <input
+        autoFocus="true"
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Type the name of a friend"
+        type="text"
+        value="" />
+      <div
+        className={undefined}>
+        <label
+          className={undefined}>
+          Gender:
+        </label>
+        <label
+          className="radio-inline">
+          <input
+            checked={false}
+            name="gender"
+            onClick={[Function]}
+            type="radio"
+            value="male" />
+          Male
+        </label>
+        <label
+          className="radio-inline">
+          <input
+            checked={false}
+            name="gender"
+            onClick={[Function]}
+            type="radio"
+            value="female" />
+          Female
+        </label>
+      </div>
+    </div>
+    <div>
+      <ul
+        className={undefined}>
+        <li
+          className={undefined}>
+          <div
+            className={undefined}>
+            <i
+              aria-hidden="true"
+              className="fa fa-2x fa-female" />
+            <div
+              className={undefined}>
+              <div>
+                <span>
+                  Theodore Roosevelt
+                </span>
+              </div>
+              <div>
+                <small>
+                  xx friends in common
+                </small>
+              </div>
+            </div>
+          </div>
+          <div
+            className={undefined}>
+            <button
+              className="btn btn-default undefined"
+              onClick={[Function]}>
+              <i
+                className="fa fa-star" />
+            </button>
+            <button
+              className="btn btn-default undefined"
+              onClick={[Function]}>
+              <i
+                className="fa fa-trash" />
+            </button>
+          </div>
+        </li>
+        <li
+          className={undefined}>
+          <div
+            className={undefined}>
+            <i
+              aria-hidden="true"
+              className="fa fa-2x fa-male" />
+            <div
+              className={undefined}>
+              <div>
+                <span>
+                  Abraham Lincoln
+                </span>
+              </div>
+              <div>
+                <small>
+                  xx friends in common
+                </small>
+              </div>
+            </div>
+          </div>
+          <div
+            className={undefined}>
+            <button
+              className="btn btn-default undefined"
+              onClick={[Function]}>
+              <i
+                className="fa fa-star-o" />
+            </button>
+            <button
+              className="btn btn-default undefined"
+              onClick={[Function]}>
+              <i
+                className="fa fa-trash" />
+            </button>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <div
+          className={undefined}>
+          <span
+            className="undefined"
+            disabled={true}
+            onClick={[Function]}>
+            <<
+          </span>
+          <span
+            className="undefined"
+            disabled={true}
+            onClick={[Function]}>
+            <
+          </span>
+          <span
+            className="undefined"
+            onClick={[Function]}>
+            1
+          </span>
+          <span
+            className=""
+            onClick={[Function]}>
+            2
+          </span>
+          <span
+            className=""
+            disabled={false}
+            onClick={[Function]}>
+            >
+          </span>
+          <span
+            className=""
+            disabled={false}
+            onClick={[Function]}>
+            >>
+          </span>
+          <span
+            className={undefined}>
+            1 of 2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
