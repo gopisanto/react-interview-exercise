@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.5",
+    "express": "^4.16.4",
     "lodash": "^4.17.4",
     "prop-types": "^15.7.2",
     "react": "^15.5.4",
